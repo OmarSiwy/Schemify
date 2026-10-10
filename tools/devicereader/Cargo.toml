@@ -1,0 +1,17 @@
+[package]
+name = "schemify-devicereader"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[[bin]]
+name = "devicereader"
+path = "src/main.rs"
+
+[lints]
+workspace = true
+
+[dependencies]
+schemify-import.workspace = true
+schemify-format.workspace = true

@@ -1,0 +1,4 @@
+/target
+/tests/corpus/.cache/
+/.schemify/
+*.raw

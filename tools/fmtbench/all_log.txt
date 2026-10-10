@@ -1,0 +1,80 @@
+selfcheck ok
+perf sexpr-1line 1000 done
+perf sexpr-kicad 1000 done
+perf kdl 1000 done
+perf xschem 1000 done
+perf jsonl 1000 done
+perf sect 1000 done
+perf sect-seqid 1000 done
+perf sect-hashid 1000 done
+perf sect-wirenet 1000 done
+perf sect-nettable 1000 done
+perf sect-offsetidx 1000 done
+perf sect-blank 1000 done
+perf sect-block 1000 done
+perf sexpr-1line 10000 done
+perf sexpr-kicad 10000 done
+perf kdl 10000 done
+perf xschem 10000 done
+perf jsonl 10000 done
+perf sect 10000 done
+perf sect-seqid 10000 done
+perf sect-hashid 10000 done
+perf sect-wirenet 10000 done
+perf sect-nettable 10000 done
+perf sect-offsetidx 10000 done
+perf sect-blank 10000 done
+perf sect-block 10000 done
+perf sexpr-1line 100000 done
+perf sexpr-kicad 100000 done
+perf kdl 100000 done
+perf xschem 100000 done
+perf jsonl 100000 done
+perf sect 100000 done
+perf sect-seqid 100000 done
+perf sect-hashid 100000 done
+perf sect-wirenet 100000 done
+perf sect-nettable 100000 done
+perf sect-offsetidx 100000 done
+perf sect-blank 100000 done
+perf sect-block 100000 done
+perf sexpr-1line 1000000 done
+perf sexpr-kicad 1000000 done
+perf kdl 1000000 done
+perf xschem 1000000 done
+perf jsonl 1000000 done
+perf sect 1000000 done
+perf sect-seqid 1000000 done
+perf sect-hashid 1000000 done
+perf sect-wirenet 1000000 done
+perf sect-nettable 1000000 done
+perf sect-offsetidx 1000000 done
+perf sect-blank 1000000 done
+perf sect-block 1000000 done
+merge sexpr-1line done
+merge sexpr-kicad done
+merge kdl done
+merge xschem done
+merge jsonl done
+merge sect done
+merge sect-seqid done
+merge sect-hashid done
+merge sect-wirenet done
+merge sect-nettable done
+merge sect-offsetidx done
+merge sect-blank done
+merge sect-block done
+merge sexpr-1line done
+merge sexpr-kicad done
+merge kdl done
+merge xschem done
+merge jsonl done
+merge sect done
+merge sect-seqid done
+merge sect-hashid done
+merge sect-wirenet done
+merge sect-nettable done
+merge sect-offsetidx done
+merge sect-blank done
+merge sect-block done
+./target/release/fmtbench all > results.md  64.60s user 14.59s system 104% cpu 1:15.96 total

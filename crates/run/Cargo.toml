@@ -1,0 +1,26 @@
+[package]
+name = "schemify-run"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[lints]
+workspace = true
+
+[features]
+default = ["sweep", "corners", "mc", "optimize"]
+sweep = []
+corners = []
+mc = []
+optimize = []
+
+[dependencies]
+schemify-netlist.workspace = true
+schemify-elab.workspace = true
+schemify-doc.workspace = true
+schemify-expr.workspace = true
+schemify-wave.workspace = true
+
+[dev-dependencies]
+proptest.workspace = true
